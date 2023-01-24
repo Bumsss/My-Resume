@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My-Resume';
+
+  //Interpolation
+  myName = 'Allen Bumanlag';
+  noName = 'AllenBumanlag';
+  myEmail = 'afbumanlag@student.hau.edu.ph';
+
+  //Style Bind
+  mainColor = '#6200be';
 }

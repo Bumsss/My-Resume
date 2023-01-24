@@ -5,4 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './achievements.component.html',
   styleUrls: ['./achievements.component.css'],
 })
-export class AchievementsComponent {}
+export class AchievementsComponent {
+  // for two-wy data binding demo
+  myName = '';
+}
