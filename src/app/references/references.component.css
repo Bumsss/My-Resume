@@ -1,0 +1,40 @@
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+  width: 900px;
+  height: 500px;
+  margin: 150px 0px 0px 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+.card button {
+  border: 5px;
+  outline: 0;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 25px;
+}
+
+.left-ref {
+  float: left;
+  margin: 30px 0px 0px 40px;
+  text-align: justify;
+  font-style: italic;
+}
+
+.right-ref {
+  float: right;
+  margin: 30px 40px 0px 0px;
+  text-align: justify;
+  font-style: italic;
+}

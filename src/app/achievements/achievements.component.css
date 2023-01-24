@@ -1,0 +1,64 @@
+.about-section {
+  margin: 228px 0px 0px 0px;
+  padding: 15px;
+  text-align: center;
+  background-color: #0a0a0a;
+  color: white;
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 30 px 0px 0px 0px; /* Remove margins */
+}
+
+ul li {
+  border: 3px solid rgb(219, 219, 219); /* Add a thin border to each list item */
+  margin-top: -1px; /* Prevent double borders */
+  margin-right: 600px;
+  margin-left: 600px;
+  background-color: #f6f6f6; /* Add a grey background color */
+  padding: 12px; /* Add some padding */
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+ul p {
+  color: #666666;
+}
+.box {
+  margin-top: 130px;
+  margin-left: 35px;
+}
+
+.text:hover {
+  background-color: #dfbeff;
+}
+
+.website {
+  margin: 0px 0px 0px 0px;
+}
+
+.mail {
+  margin: -5px 0px 0px 0px;
+}
+
+h1 {
+  margin: 0px 0px 35px 0px;
+}
+
+.barontop button {
+  border: none;
+  outline: 0;
+  padding: 25px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 36.3%;
+  font-size: 18px;
+  margin: 20px 0px 0px 0px;
+}

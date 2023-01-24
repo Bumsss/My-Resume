@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+}
+.wrapper {
+  width: 40%;
+  min-width: 590px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+.container {
+  width: 100%;
+  padding: 30px 30px 50px;
+  background-color: rgb(49, 49, 49);
+  border: 2px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+.container * {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+h2 {
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+.skills:not(:last-child) {
+  margin-bottom: 30px;
+}
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+.bar {
+  position: relative;
+
+  border: 2px solid #6200be;
+
+  border-radius: 20px;
+}
+.bar div {
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #6200be;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 23%;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 23%;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+}
+.column3 {
+  float: left;
+  width: 23%;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+}
+.column4 {
+  float: left;
+  width: 23%;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.htmll {
+  max-width: 100%;
+  width: 10%;
+}
+
+.holder {
+  display: flex;
+}
+
+#html-bar {
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill {
+  100% {
+    width: 90%;
+  }
+}
+#css-bar {
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill {
+  100% {
+    width: 75%;
+  }
+}
+#js-bar {
+  animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+  100% {
+    width: 72%;
+  }
+}
+#jQuery-bar {
+  animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill {
+  100% {
+    width: 58%;
+  }
+}
+
+.column {
+  margin: 0px 0px 0px -50px;
+}
+.column2 {
+  margin: 0px 0px 0px -45px;
+}
+.column3 {
+  margin: 0px 0px 0px -45px;
+}
+
+.column4 {
+  margin: 0px 0px 0px -45px;
+}
+
+.details .htmlskill {
+  margin: 30px 0px 0px -590px;
+}
+
+.details .cssskill {
+  margin: 30px 0px 0px -590px;
+}
+
+.details .javaskill {
+  margin: 30px 0px 0px -550px;
+}
+
+.details .phpskill {
+  margin: 30px 0px 0px -590px;
+}
+
+.details .skillnum {
+  margin: 50px 0px -30px 0px;
+}

@@ -1,0 +1,42 @@
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <header>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/"
+            ><span style="color:#6200be">AllenBumanlag</span></a
+          >
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a class="hoverr" href="/about">About</a></li>
+          <li><a class="hoverr" href="/achievements">Achievements</a></li>
+          <li><a class="hoverr" href="/education">Education</a></li>
+          <li><a class="hoverr" href="/references">References</a></li>
+          <li><a class="hoverr" href="/skills">Skills</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="page-content">
+    <router-outlet></router-outlet>
+  </div>
+
+  <footer>
+    <div class="container-footer">
+      <p>
+        This Website was developed by:
+        <span style="color:#6200be">Allen Bumanlag</span>
+      </p>
+      <p class="footer-name">afbumanlag@student.hau.edu.ph</p>
+    </div>
+  </footer>
+</body>
