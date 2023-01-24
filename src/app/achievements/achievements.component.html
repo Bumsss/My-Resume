@@ -39,8 +39,11 @@
       </li>
     </ul>
   </div>
-
-  <!-- Two-way data binding -->
-  <input [(ngModel)]="myName" placeholder="Enter your name" />
-  <p>Hello, {{ myName }} !!</p>
+  <!--Property Binding-->
+  <input type="text" [value]="achievementName" />
+  <input type="text" [value]="achievementDate" />
+  <!-- Event Binding -->
+  <br />
+  <button (click)="showData($event)">Submit</button>
+  <button (click)="clearData($event)">Clear</button>
 </body>

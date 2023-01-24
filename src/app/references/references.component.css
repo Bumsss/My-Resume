@@ -38,3 +38,11 @@
   text-align: justify;
   font-style: italic;
 }
+
+.myColor {
+  color: #6200be;
+}
+
+.notColor {
+  color: blue;
+}

@@ -5,4 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './references.component.html',
   styleUrls: ['./references.component.css'],
 })
-export class ReferencesComponent {}
+export class ReferencesComponent {
+  //CLASS BINDING
+  appliedCSSClass = 'myColor';
+  notappliedCSSClass = true;
+}
