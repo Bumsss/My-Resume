@@ -1,0 +1,32 @@
+.pageone {
+  font-size: 4em;
+  color: #708090;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.try {
+  width: 20%;
+}
+
+.four {
+  padding-top: 8em;
+}
+
+.three {
+  font-size: 2em;
+  color: #708090;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.five {
+  font-size: 1em;
+  color: #708090;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.there {
+  padding: 1em 0em 0em 0em;
+}

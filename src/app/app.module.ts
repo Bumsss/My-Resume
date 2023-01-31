@@ -9,6 +9,7 @@ import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { ReferencesComponent } from './references/references.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 
@@ -19,6 +20,7 @@ const appRoutes: Routes = [
   { path: 'skills', component: SkillsComponent },
   { path: 'achievements', component: AchievementsComponent },
   { path: 'references', component: ReferencesComponent },
+  { path: '**', component: PagenotfoundComponent },
 ];
 @NgModule({
   declarations: [

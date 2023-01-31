@@ -31,12 +31,6 @@ li .hoverr:active {
   margin: -13px 0px 10px 0px;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 .container-footer .myName {
   color: #6200be;
 }
